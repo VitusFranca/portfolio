@@ -11,13 +11,27 @@
     padding: 10vw;
     
 }
+.conteiner_atuacao {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-areas: "header header header header" "main main sidebar .";
+}
 
 .conteiner h1 {
+    grid-area: header;
     color: #A1AF9F;
     text-align: center;
    
 }
-
+.conteiner p {
+    font-weight: 300;
+    font-size: 1.2em;
+    padding: 30px;
+    width: 100%;
+    color: #fff;
+    margin: 0 auto;
+    grid-area: main;
+}
 .conteiner_item {
     
    padding: 20px;
@@ -39,7 +53,11 @@
     color: #A1AF9F;
     background-color: #00592F;
 }
-
+.conteiner_icons div {
+    justify-items: center;
+}
 .icon {
     color: #00592F;
+    width: 10vw;
+    height: 10vw;
 }

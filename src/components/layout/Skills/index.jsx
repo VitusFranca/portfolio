@@ -1,5 +1,6 @@
-import { FaReact, FaCss3Alt, FaJsSquare, FaHtml5, FaGitSquare, FaGithubSquare  } from 'react-icons/fa';
-import { Code, CodeXml } from 'lucide-react';
+import { FaReact, FaCss3Alt, FaJsSquare, FaHtml5, FaGitSquare, FaGithubSquare, FaChartLine  } from 'react-icons/fa';
+import { CodeXml } from 'lucide-react';
+import { SiPython, SiMicrosoftexcel } from 'react-icons/si';
 import styles from './styles.module.css';
 
 
@@ -18,6 +19,9 @@ function Skills ( { scrollRef }) {
                 <div className={styles.conteiner_item}><FaGithubSquare className={styles.icon} /><h2>GitHub</h2></div>
                 <div className={styles.conteiner_item}><FaGitSquare className={styles.icon} /><h2>Git</h2></div>
                 <div className={styles.conteiner_item}><FaReact className={styles.icon} /><h2>React</h2></div>
+                <div className={styles.conteiner_item}><SiPython className={styles.icon} /><h2>Python</h2></div>
+                <div className={styles.conteiner_item}><SiMicrosoftexcel className={styles.icon} /><h2>Excel</h2></div>
+                <div className={styles.conteiner_item}><FaChartLine className={styles.icon} /><h2>Analise de dados</h2></div>
             </div>
         </div>
     )

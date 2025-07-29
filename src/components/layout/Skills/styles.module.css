@@ -32,6 +32,10 @@
     margin: 0 auto;
     grid-area: main;
 }
+.conteiner_atuacao div {
+    grid-area: sidebar;
+    place-self: center;
+}
 .conteiner_item {
     
    padding: 20px;
@@ -60,4 +64,23 @@
     color: #00592F;
     width: 10vw;
     height: 10vw;
+}
+@media screen and (max-width: 360px) {
+    .conteiner_atuacao div {
+        display:none
+    }
+}
+
+@media screen and (min-height: 1500px) {
+    .conteiner p {
+        font-size:2vw
+    }
+
+    .conteiner h1 {
+        font-size: 4vw
+    }
+
+    .conteiner_item h2 {
+        font-size: 2vw
+    }
 }

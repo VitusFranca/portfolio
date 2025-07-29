@@ -5,7 +5,6 @@ import img from '../../../assets/imgsobre.webp';
 function About( { scrollRef }) {
     return ( 
     <div ref={scrollRef} className={styles.conteiner}>
-        <div className={styles.conteiner_texto}>
             <h1><span>Introdução Sobre Mim</span></h1>
             <p>Olá! Sou Vitor França, um entusiasta da tecnologia 
                 <br/><br/>
@@ -15,7 +14,6 @@ function About( { scrollRef }) {
                 <br/><br/> 
                 Aberto para colaborações e discussões sobre tecnologia.
             </p>
-        </div>
         <div className={styles.conteiner_img}><img src={img} alt="" /></div>
     </div>
 )

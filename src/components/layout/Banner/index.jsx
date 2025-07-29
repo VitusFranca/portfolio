@@ -13,9 +13,9 @@ function Banner() {
                     <button className={styles.contato}>Contato</button>
                 </a>
             </div>
-            <div className={styles.conteiner_img}>
+            <picture>
                 <img src={Img} alt="" />
-            </div>
+            </picture>
         </div>
 
     )

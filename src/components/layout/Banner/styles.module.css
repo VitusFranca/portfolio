@@ -4,20 +4,16 @@
     justify-content: space-around;
     flex-wrap: wrap;
     background-size: cover;
-    padding: 10rem 0px 8rem 20px;
-    
-    
+    padding: 10rem 0px 8rem;
     
 
 } 
-.conteiner_img {
-    
-   
-    
-    
+.conteiner_banner picture {
+    padding-left: 20px;
+    padding-right: 20px;
 
 }
-.conteiner_img img {
+.conteiner_banner img {
      width: 100%;
      height: 100%;
      max-width: 25rem;
@@ -26,11 +22,9 @@
 }
 .conteiner_titulo {
 
-    padding: 0 0 4rem 0;
+    flex: 0 0 calc(50% - 10px);
+    padding: 0 20px 4rem;
     text-align: left;
-    
-    
-    
     
     
 }
@@ -41,7 +35,6 @@
     margin: 0;
     font-size: 2.4em ;
     
-   
 }
 .conteiner_banner h2 {
     font-size: 1.1em;
@@ -65,7 +58,7 @@
 .contato:hover {
     transition: background-color 0.7s ease;
     background-color: #394F36;
-    color: white;
+    color: #fff;
     transform: translateY(2px);
     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
     
@@ -81,29 +74,59 @@
     .conteiner_titulo h1{
         font-size: 2.0em ;
         
-      
     }
     .conteiner_titulo h2 {
         font-size: 1em ;
        
     }
-    .conteiner_img img {
-    
+    .conteiner_banner picture img {
         width: 20rem;
-        
-        
-        
     
     }
     
   }
   @media screen and (max-width: 480px) {
-    .conteiner_img img {
-    
-        width: 16rem;
-        
+    .conteiner_banner picture img {
+        width: 18rem;
         
     }
     
 
   }
+  @media screen and (max-width: 360px) {
+    .conteiner_banner picture img {
+        display:none
+    }
+
+    .conteiner_titulo {
+        flex: 0 0 calc(50% - 10px);
+        padding: 2rem 20px;
+        text-align: left
+    }
+}
+
+@media screen and (min-height: 1500px) {
+    .conteiner_banner h2 {
+        font-size:2vw
+    }
+
+    .conteiner_banner h1 {
+        font-size: 4vw
+    }
+
+    .contato {
+        border: .5vw outset #E20F31;
+        border-radius: 4vw;
+        font-size: 2vw
+    }
+
+    .conteiner_banner picture img {
+        width: 50vw
+    }
+
+    .conteiner_banner img {
+        width: 100%;
+        height: 100%;
+        max-width: 40vw
+    }
+}

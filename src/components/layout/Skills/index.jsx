@@ -9,7 +9,7 @@ function Skills ( { scrollRef }) {
         <div ref={scrollRef} className={styles.conteiner}>
             <div className={styles.conteiner_atuacao}>
                 <h1>Professional Action</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/> Qui suscipit similique quo corrupti esse dolores ab ea labore aut ex laudantium cum id,<br/> accusamus molestias cupiditate delectus placeat corporis provident.</p>
+                <p>Graduado em Análise e Desenvolvimento de Sistemas<br/>conhecimento em desenvolvimento web utilizando HTML, CSS, JavaScript e React<br/>além de domínio em Excel Avançado para analise de dados.</p>
                 <div className={styles.conteiner_item}><CodeXml className={styles.icon} /><h2></h2></div>
             </div>
             <div className={styles.conteiner_icons}>

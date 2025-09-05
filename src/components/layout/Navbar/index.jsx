@@ -46,7 +46,7 @@ function Navbar( {scrollComponenteAbout, scrollComponenteSkill, scrollComponente
                             <li><Link onClick={scrollComponenteHome}>Home</Link></li>
                             <li><Link onClick={scrollComponenteSkill}>Skill</Link></li>
                             <li><Link onClick={scrollComponenteAbout}>About</Link></li>
-                            <li><Link to="/dashboard" target="_blank" rel="noopener noreferrer">Dashboard</Link></li>
+                            <li><a href="/dashboard" target="_blank" rel="noopener noreferrer">Dashboard</a></li>
                         </ul>
                     </nav>
                 </div>

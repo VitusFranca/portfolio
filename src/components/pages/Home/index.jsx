@@ -5,6 +5,7 @@ import Skills from '../../layout/Skills';
 import Navbar from '../../layout/Navbar';
 import About from '../../layout/About';
 import Footer from '../../layout/Footer';
+import Dashboard from '../../projetos/Dashboard';
 
 function Home() {
     
@@ -42,6 +43,7 @@ function Home() {
                 github='https://github.com/VitusFranca'
                 linkedin='https://www.linkedin.com/in/vitor-fran%C3%A7a-b90b23305/'
             />
+            <Dashboard/>
         </div>
     )
 }

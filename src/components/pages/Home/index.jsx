@@ -43,7 +43,6 @@ function Home() {
                 github='https://github.com/VitusFranca'
                 linkedin='https://www.linkedin.com/in/vitor-fran%C3%A7a-b90b23305/'
             />
-            <Dashboard/>
         </div>
     )
 }

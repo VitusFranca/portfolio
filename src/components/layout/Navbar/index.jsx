@@ -35,6 +35,7 @@ function Navbar( {scrollComponenteAbout, scrollComponenteSkill, scrollComponente
                                 <li><Link onClick={() => {scrollComponenteHome(); closeMenu()}}>Home</Link></li>
                                 <li><Link onClick={() => {scrollComponenteSkill(); closeMenu()}}>Skill</Link></li>
                                 <li><Link onClick={() => {scrollComponenteAbout(); closeMenu()}}>About</Link></li>
+                                <li><Link to="/dashboard" target="_blank" rel="noopener noreferrer" onClick={() => {closeMenu()}}>Dashboard</Link></li>
                             </ul>
                         </nav>
                     )}
@@ -45,6 +46,7 @@ function Navbar( {scrollComponenteAbout, scrollComponenteSkill, scrollComponente
                             <li><Link onClick={scrollComponenteHome}>Home</Link></li>
                             <li><Link onClick={scrollComponenteSkill}>Skill</Link></li>
                             <li><Link onClick={scrollComponenteAbout}>About</Link></li>
+                            <li><Link to="/dashboard" target="_blank" rel="noopener noreferrer">Dashboard</Link></li>
                         </ul>
                     </nav>
                 </div>
